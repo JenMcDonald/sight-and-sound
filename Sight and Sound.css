@@ -1,0 +1,148 @@
+body#firstPage{
+    background-color: black;
+    font-family:  Arial, Helvetica, sans-serif;
+    font-size: 180px;
+    font-style: italic;
+    text-align: center;
+    text-shadow: 3px 3px 1px whitesmoke;
+    text-decoration: none;
+   
+}
+p{
+margin: 0px;
+padding:0px;
+}
+a{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    color: black;
+    letter-spacing: 0.75px;
+}
+
+footer{
+    font-size: 12px;
+    text-align: left;
+    margin: 0px;
+    padding: 10px;
+    color:lightgray;
+    background-color: black;
+}
+a:hover{
+    color: hotpink; 
+}
+#sight{
+    position: relative;
+    top: 60px;
+    padding-right:100px;
+    height: 175px;
+    cursor: pointer;
+   }
+#sound{
+    position: relative;
+    bottom: 80px;
+    padding-left:100px;
+    height: 175px;
+    cursor: pointer;
+}
+body.soundPage{
+    font-family:  Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: black;
+}
+
+h1{
+    margin: 0px;
+    padding: 0px;
+    font-size: 100px;
+    text-shadow: -1px -1px 1px hotpink, 3px 3px 1px whitesmoke;
+    background-color: black;
+    text-align: center;
+ }
+#bottomBorder{
+    position: absolute;
+    border-bottom: 3px solid hotpink;
+    right: 0;
+    left: 35%;
+}
+iframe{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    Border: 0; 
+    display:none;
+    background-color: black;
+}
+button{
+    margin-top:20px;
+border-radius:50%;
+font-size: 16px;
+font-weight: bold;
+background-color: white;
+color: hotpink;
+border: 1.5px solid hotpink;
+width: 80px;
+height:80px;
+}
+
+button:hover{
+    background-color: hotpink;
+    color: white;
+    cursor: pointer;
+}
+#anotherBorder{
+    position: absolute;
+    border-bottom: 3px solid hotpink;
+    right: 35%;
+    left: 0;
+}
+
+
+@media only screen and (max-width: 768px) {
+    [class*="col-"] {
+      width: 100%;
+    }
+}
+nav{
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.home{
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    color: white;
+    text-shadow: none;
+}
+
+.home:hover{
+    color: hotpink;
+    text-shadow: none;
+}
+
+.sightPage{
+    background-color: black;
+    color: whitesmoke;
+}
+
+.flick {
+    padding: 0;
+    height: 350px;
+    border-style: dotted;
+    border-color: white;
+    border-width: medium;
+  }
+
+  #one, #three, #five{
+    float: left;
+    width: 50%;
+  }
+
+  img{
+      margin:0;
+      padding:0;
+  }
