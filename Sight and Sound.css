@@ -27,6 +27,7 @@ footer{
     padding: 10px;
     color:lightgray;
     background-color: black;
+    text-shadow: none;
 }
 a:hover{
     color: hotpink; 
